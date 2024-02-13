@@ -5,43 +5,110 @@
 body{
   display:flex;
   justify-content:center;
+  font-family:sans-serif;
   background:indigo;
 }
 .header{
-  color:yellow;
-  font-family:sans-serif;
-  font-size:5vh;
-  margin-top:5vh;
+  color:rgb(27, 219, 233);
+  font-family:"itim",cursive;
   text-align:center;
+  margin-bottom:5vh;
+  text-shadow:10px 10px 20px solid black;
 }
-.counter{
-  width:100vh;
+
+.card{
+  width:150vh;
   height:60vh;
+  box-shadow:2px 2px 20px;
   background:white;
-  border-radius:50px;
+  border-radius:10px;
+  margin-top:10vh;
 }
-.text{
-  color:indigo;
-  font-size:20vh;
-  text-align:center;
-  font-family:sans-serif;
-  margin-top:5vh;
+.card:hover{
+  transform:translateY(-5px);
+  transition-duration:0.5s;
 }
-button{
+
+
+.userPicture{
   width:20vh;
-  height:10vh;
-  background:none;
-  border:4px solid indigo;
-  margin:10vh 6vh;
-  font-size:3vh;
-  color:indigo;
-  font-weight:bold;
-  cursor:pointer;
-}
-button:hover{
-  background:indigo;
+  height:20vh;
+  border-radius:100%;
+  background:rgb(247, 10, 215);
   color:white;
+  text-align:center;
+  font-weight:bold;
+  font-family:sans-serif;
+  padding:10px;
+  margin:30px;
+  font-size:10vh;
 }
+.nav{
+  display:flex;
+}
+.name{
+  color:rgb(7, 7, 20);
+  margin:15vh 1vh;
+  font-family:"itim",cursive;
+}
+.info{
+  font-family:"itim",cursive;
+  color:rgb(5, 47, 95);
+  text-align:center;
+}
+.location{
+  font-family:"itim",cursive;
+  color:rgb(5, 47, 95);
+  text-align:center;
+}
+.btn{
+  width:20vh;
+  height:7vh;
+  color:white;
+  font-family:"itim",cursive;
+  font-weight:bold;
+  border:0;
+  outline:none;
+  border-radius:10px;
+  background:rgb(6, 6, 53);
+  justify-content:right;
+  margin-left:120vh;
+}
+.btn:hover{
+background:none;
+border:3px solid rgb(6, 6, 53);
+color:rgb(6, 6, 53);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
